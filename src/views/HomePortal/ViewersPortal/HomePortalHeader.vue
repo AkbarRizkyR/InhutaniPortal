@@ -1,6 +1,6 @@
 <template>
     <div class="relative w-full h-screen bg-cover bg-center flex-shrink-0"
-        style="background-image: url('/src/assets/background/BG.png');">
+        :style="{ backgroundImage: `url(${backgroundImage})` }">
         <div
             class="flex flex-col justify-center items-center absolute inset-0 bg-black bg-opacity-30 text-white p-6 rounded-lg w-full h-full">
             <div class="max-w-screen-lg mx-auto p-6 text-center">
@@ -33,6 +33,8 @@
 
 <script setup>
 import CustomButton from '@/components/CustomButton.vue';
+
+const backgroundImage = new URL('@/assets/background/BG.png', import.meta.url).href;
 </script>
 
 <style scoped>
