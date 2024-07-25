@@ -12,5 +12,13 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  build: {
+    outDir: 'dist', // Direktori output untuk build
+    sourcemap: true, // Menghasilkan sourcemap untuk debugging
+  },
+  server: {
+    port: 3000, // Port untuk development server
+    open: true, // Membuka browser secara otomatis
   }
 })
