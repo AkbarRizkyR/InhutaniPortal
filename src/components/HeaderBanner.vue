@@ -2,7 +2,7 @@
     <header class="flex flex-col md:flex-row justify-between items-center p-4 bg-transparent fixed top-0 left-0 w-full z-50">
         <div class="logo mb-4 md:mb-0">
             <!-- Ganti dengan logo Anda -->
-            <img src="../assets/styles/icons/png/logo.png" alt="Logo" class="h-12 filter invert brightness-0">
+            <img src="@/assets/styles/icons/png/logo.png" alt="Logo" class="h-12 filter invert brightness-0">
         </div>
         <button @click="toggleMenu" class="md:hidden text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
