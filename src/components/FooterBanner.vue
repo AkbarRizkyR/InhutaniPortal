@@ -1,10 +1,10 @@
 <template>
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-40 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer class="bg-[#1C1C1C] text-white py-12">
+        <div class="container mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
             <!-- Grid 1: Logo and Description -->
-            <div>
-                <img src="../assets/styles/icons/png/logo.png" alt="Company Logo" class="mb-4 w-32 h-auto" />
+            <div class="">
+                <img src="../assets/styles/icons/png/logo.png" alt="Company Logo" class="mb-4 w-32 h-auto filter invert brightness-0" />
                 <p class="mb-4">
                     PT Inhutani I bergerak di bidang pengelolaan hutan alam, hutan tanaman, hasil hutan non kayu,
                     agroforestri, jasa wisata hutan, dan pengolahan industri hasil hutan kayu

@@ -1,5 +1,5 @@
 <template>
-    <div class="px-40">
+    <div class="px-4 md:px-20 lg:px-40">
         <!-- Image Above Visi Section -->
         <div class="mb-12">
             <img src="/src/assets/background/Rectangle3.png" alt="Descriptive Alt Text" class="w-full h-auto rounded-lg " />
@@ -7,9 +7,9 @@
 
         <!-- Visi Section -->
         <section class="mb-12">
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- Title on the left -->
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl md:text-2xl font-bold">
                     Visi Inhutani
                 </h2>
 
@@ -26,8 +26,8 @@
 
         <!-- Misi Section -->
         <section class="mb-12">
-            <div class="grid grid-cols-2 gap-6">
-                <h2 class="text-2xl font-bold mb-4">Misi Inhutani</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <h2 class="text-xl md:text-2xl font-bold mb-4">Misi Inhutani</h2>
                 <ul class="text-sm text-justify ">
                     <li>Mengelola hutan secara lestari dan bersertifikat</li>
                     <li>Mengembangkan hutan tanaman dengan jenis komersil unggul dan bernilai tinggi</li>
